@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import firebase from "./firebase";
 import Register from './components/Register/Register';
+import Login from './components/Login/Login';
 import LandingPage from './components/LandingPage/LandingPage';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/register" component={Register} />
+          <Route exact path="/login" component={Login} />
         </Switch>
       </Router>
     </div>
