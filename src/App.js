@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import firebase from "./firebase";
-import Register from './Register';
-import LandingPage from './LandingPage';
-
-import './App.css';
+import Register from './components/Register/Register';
+import LandingPage from './components/LandingPage/LandingPage';
 
 function App() {
   const [firebaseInitialized, setFirebaseInitialized] = useState(false);
