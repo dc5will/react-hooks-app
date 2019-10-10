@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 
-export default function RegistrationForm(props) {
+export default function Register(props) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   const handleSubmit = e => {
+    // fetch request here
     e.preventDefault();
     props.storeUser({ username, password });
   };
