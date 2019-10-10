@@ -4,6 +4,7 @@ import firebase from "./firebase";
 import Register from './components/Register/Register';
 import Login from './components/Login/Login';
 import LandingPage from './components/LandingPage/LandingPage';
+import Dashboard from './components/Dashboard/Dashboard';
 
 function App() {
   const [firebaseInitialized, setFirebaseInitialized] = useState(false);
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />
+          <Route exact path="/dashboard" component={Dashboard} />
         </Switch>
       </Router>
     </div>
