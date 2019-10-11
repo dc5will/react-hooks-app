@@ -1,6 +1,7 @@
 import React from "react";
 import firebase from "../../firebase";
 import { Link } from "react-router-dom";
+import './Navbar.css';
 
 export default function Navbar(props) {
   async function logout() {
@@ -9,7 +10,7 @@ export default function Navbar(props) {
   }
 
   return (
-    <nav>
+    <nav className='nav-container'>
       <div className="nav-wrapper">
         <Link className="brand-logo" to="/">
           Hooks
