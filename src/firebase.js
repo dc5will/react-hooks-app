@@ -9,8 +9,6 @@ const config = {
   projectId: "react-hooks-4ed7a",
   storageBucket: "react-hooks-4ed7a.appspot.com",
   messagingSenderId: "1044290149214",
-  appId: "1:1044290149214:web:884986e93b88dbc7718dcf",
-  measurementId: "G-S2EQ3KQZFN"
 };
 
 class Firebase {
