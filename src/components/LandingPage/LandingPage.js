@@ -7,7 +7,7 @@ export default function HomePage(props) {
       <Navbar {...props} />
       <div className="container">
         <h2>Welcome</h2>
-        <p>Practicing with React Hooks</p>
+        <p>Practicing with React Hooks & Firebase</p>
       </div>
     </main>
   );

@@ -3,7 +3,12 @@ import "firebase/auth";
 import "firebase/firebase-firestore";
 
 const config = {
-  // moving env file
+  apiKey: "AIzaSyBRSfSDPE09Xou2syDN1HwgLQuZ4i9iJ2I",
+  authDomain: "react-hooks-4ed7a.firebaseapp.com",
+  databaseURL: "https://react-hooks-4ed7a.firebaseio.com",
+  projectId: "react-hooks-4ed7a",
+  storageBucket: "react-hooks-4ed7a.appspot.com",
+  messagingSenderId: "1044290149214",
 };
 
 class Firebase {
